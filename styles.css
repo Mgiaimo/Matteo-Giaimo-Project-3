@@ -1,11 +1,15 @@
 /* site navigation bar */
+
 .site-nav {
-	margin-top: 20px: 
+	margin-top: 20px:
+
 }
 
 .site-nav ul {
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
+	
 }
 
 .site-nav li {
@@ -13,6 +17,7 @@
 	float: left;
 	margin-right: 5px;
 	background-color: blue;
+	
 }
 
 .site-nav a {
@@ -21,6 +26,7 @@
 	color: orange;
 	padding: 10px 20px;
 	border: 3px solid orange;
+
 }
 
 .site-nav a:hover {
@@ -44,4 +50,8 @@
 }
 
 /* end of site navigation bar */
+
+body {
+	background-color: #666;
+}
 
