@@ -12,22 +12,22 @@
 	list-style: none;
 	float: left;
 	margin-right: 5px;
+	background-color: blue;
 }
 
 .site-nav a {
 	display: block;
 	text-decoration: none;
-	color: blue;
+	color: orange;
 	padding: 10px 20px;
-	border: 3px solid red;
+	border: 3px solid orange;
 }
 
 .site-nav a:hover {
-	background-color: green;
+	background-color: purple;
 
 }
 
-/* end of site navigation bar */
 
 .group:before,
 .group:after {
@@ -42,3 +42,6 @@
 .group {
 	zoom: 1;
 }
+
+/* end of site navigation bar */
+
