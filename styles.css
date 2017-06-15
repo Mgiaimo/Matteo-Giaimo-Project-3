@@ -3,6 +3,7 @@
 .site-nav {
 	margin-top: 20px:
 
+
 }
 
 .site-nav ul {
@@ -17,6 +18,7 @@
 	float: left;
 	margin-right: 5px;
 	background-color: blue;
+
 	
 }
 
@@ -55,7 +57,7 @@ body {
 	background-color: #666;
 }
 
-.container {
+.container-raptor {
 	max-width: 960px;
 	margin-right: auto;
 	margin-left:  auto;
