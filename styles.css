@@ -140,6 +140,22 @@ body {
 	text-decoration: underline;
 }
 
+.exhuast {
+		background-color: #666;
+		padding: 25px;
+		text-align: center;
+
+}
+
+.exhuast-title {
+	font-weight: bold;
+	font-size: 2em;
+	
+}
+
+.exhuast-content {
+	font-size: 120%;
+}
 
 
 
