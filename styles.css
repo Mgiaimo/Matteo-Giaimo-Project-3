@@ -54,12 +54,42 @@
 /* end of site navigation bar */
 
 body {
-	background-color: #666;
+	background-color: lightgray;
 }
+
+
 
 .container-raptor {
 	max-width: 960px;
 	margin-right: auto;
 	margin-left:  auto;
+
+}
+
+.raptorvid-title {
+	text-align: center;
+}
+
+.raptorvid {
+	background-color: orange;
+	padding: 25px;
+
+
+
+}
+
+.raptor-video-content {
+	float: left;
+	margin: 20px;
+	
+	
+}
+
+.raptor-video-content-words {
+	padding: 30px;
+	margin: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
 
 }
