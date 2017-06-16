@@ -66,6 +66,12 @@ body {
 
 }
 
+.syn {
+	text-align: center;
+	font-size: 3em;
+	font-weight: bold;
+}
+
 .raptorvid-title {
 	text-align: center;
 }
@@ -93,3 +99,47 @@ body {
 	text-align: center;
 
 }
+
+.raptorwant {
+		background-color: #666;
+		padding: 25px;
+}
+
+.raptorwant-title {
+	text-align: center;
+	color: orange;
+}
+
+.raptorwant-content {
+	color: orange;
+	text-align: center;
+}
+
+.raptorwant-img {
+	
+	margin-left: 150px;
+}
+
+.upgrade {
+	background-color: orange;
+	padding: 25px;
+	text-align: center;
+
+
+}
+
+.upgrade-title {
+	font-size: 2em;
+}
+
+.upgrade li {
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+	font-size: 1.5em;
+	text-decoration: underline;
+}
+
+
+
+
