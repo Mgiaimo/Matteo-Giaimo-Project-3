@@ -53,9 +53,7 @@
 
 /* end of site navigation bar */
 
-body {
-	background-color: lightgray;
-}
+
 
 
 
@@ -157,5 +155,109 @@ body {
 	font-size: 120%;
 }
 
+/*MUSIC=======================================================*/
+
+/*WIZ=========================================*/
+
+.music-container {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightgray;
+	padding-left:  40px;
+	padding-right:  40px;
+	box-sizing: border-box;
 
 
+}
+
+.wiz-container {
+	background-color: purple;
+}
+
+.wiz-head{
+	text-align: center;
+}
+
+.wiz-container img {
+	float: left;
+	padding-right: 20px;
+	padding-left: 20px; 
+
+}
+
+.wiz-container video {
+	padding-left: 130px;
+	padding-bottom: 18px;
+
+}
+
+.wiz-container .wiz-song-title {
+	text-align: center;
+	padding-top: 5px;
+}
+
+/*Berner============================================*/
+
+.berner-container {
+	background-color: red;
+}
+.berner-head {
+	text-align: center;
+	padding-top: 15px;
+
+}
+
+.berner-container img {
+	float: right;
+	margin: 10px;
+	
+}
+
+.berner-container video {
+	padding-left: 130px;
+	padding-bottom: 18px;
+
+}
+
+.berner-container p {
+	padding: 10px;
+}
+
+.berner-container h3 {
+	text-align: center;
+	padding-top: 10px;
+}
+
+/*Post=================================================================*/
+
+.post-container {
+	background-color: #666;
+	color: orange;
+
+}
+
+.post-head {
+	text-align: center;
+}
+
+.post-container img {
+	float: left;
+	margin: 15px;
+}
+
+.post-container p {
+	padding-top: 120px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.post-song-title {
+	text-align: center;
+	padding-top: 250px;
+}
+
+.post-container video {
+	padding-left: 120px;
+	padding-bottom: 18px;
+}
