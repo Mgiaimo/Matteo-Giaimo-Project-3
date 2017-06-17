@@ -1,8 +1,9 @@
 /* site navigation bar */
 
 .site-nav {
-	margin-top: 20px:
-
+	padding: 40px 20px 40px 20px;
+	text-align: center;
+	background-color: lightblue;
 
 }
 
@@ -16,18 +17,14 @@
 .site-nav li {
 	list-style: none;
 	float: left;
-	margin-right: 5px;
-	background-color: blue;
-
-	
+	text-align: center;
 }
 
 .site-nav a {
 	display: block;
 	text-decoration: none;
-	color: orange;
+	color: darkorange;
 	padding: 10px 20px;
-	border: 3px solid orange;
 
 }
 
@@ -61,6 +58,7 @@
 	max-width: 960px;
 	margin-right: auto;
 	margin-left:  auto;
+    font-family: 'Anton', sans-serif;
 
 }
 
@@ -181,12 +179,14 @@
 
 .wiz-head{
 	text-align: center;
+	font-size: 4em;
 }
 
 .wiz-container img {
 	float: left;
 	padding-right: 20px;
 	padding-left: 20px; 
+	overflow: hidden;
 
 }
 
@@ -199,6 +199,13 @@
 .wiz-container .wiz-song-title {
 	text-align: center;
 	padding-top: 5px;
+	font-size: 2em;
+}
+
+.wiz-container p {
+	padding-right: 50px;
+	padding-left: 50px;
+	font-size: 140%;
 }
 
 /*Berner============================================*/
@@ -209,12 +216,14 @@
 .berner-head {
 	text-align: center;
 	padding-top: 15px;
+	font-size: 4em;
 
 }
 
 .berner-container img {
 	float: right;
-	margin: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 	
 }
 
@@ -225,12 +234,15 @@
 }
 
 .berner-container p {
-	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 150%;
 }
 
 .berner-container h3 {
 	text-align: center;
 	padding-top: 10px;
+	font-size: 2em;
 }
 
 /*Post=================================================================*/
@@ -243,6 +255,7 @@
 
 .post-head {
 	text-align: center;
+	font-size: 4em;
 }
 
 .post-container img {
@@ -254,14 +267,65 @@
 	padding-top: 120px;
 	padding-right: 20px;
 	padding-left: 20px;
+	font-size: 150%
 }
 
 .post-song-title {
 	text-align: center;
-	padding-top: 250px;
+	padding-top: 90px;
+	font-size: 2em;
 }
 
 .post-container video {
 	padding-left: 120px;
 	padding-bottom: 18px;
+}
+
+
+
+
+/*RESUME==================================================*/
+
+.site-nav1 {
+	background-color: #666;
+	padding: 40px 20px 40px 20px;
+	}
+
+.site-nav1 ul {
+	
+	overflow: hidden;
+	margin: 0px auto;
+	text-align: center;
+
+
+}
+
+.site-nav1 li {
+	list-style: none;
+	float: left;
+
+
+}
+.site-nav1 a {
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 20px;
+	display: inline-block;
+	color: black;
+
+
+	}
+
+.site-nav1 a:hover {
+	background-color: white;
+
+}
+
+
+.resume-container {
+	background-color: lightgray;
+	font-family: 'Lora', serif;
+	max-width: 960px;
+	margin-right: auto;
+	margin-left:  auto;
 }
