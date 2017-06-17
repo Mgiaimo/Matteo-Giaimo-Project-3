@@ -62,14 +62,27 @@
 
 }
 
+.container-raptor h1 {
+	text-align: center;
+	font-size: 2.5em;
+	margin-top: -50px;
+}
+
+.container-raptor p {
+	font-size: 120%;
+}
+
+
+
 .syn {
 	text-align: center;
-	font-size: 3em;
+	font-size: 4em;
 	font-weight: bold;
 }
 
 .raptorvid-title {
 	text-align: center;
+
 }
 
 .raptorvid {
@@ -154,6 +167,44 @@
 }
 
 /*MUSIC=======================================================*/
+
+.site-nav-music {
+	background-color: #666;
+	padding: 20px 10px 20px 10px;
+	}
+
+.site-nav-music ul {
+	
+	overflow: hidden;
+	margin: 0px auto;
+	text-align: center;
+
+
+}
+
+.site-nav-music li {
+	list-style: none;
+	float: left;
+
+
+}
+.site-nav-music a {
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 20px;
+	display: inline-block;
+	color: black;
+
+
+	}
+
+.site-nav-music a:hover {
+	background-color: white;
+
+}
+
+
+
 .music-footer {
 	text-align: center;
 	padding: 40px 20px 40px 20px;
@@ -175,6 +226,11 @@
 
 .wiz-container {
 	background-color: purple;
+}
+
+.wow {
+	text-align: center;
+	font-size: 4em;
 }
 
 .wiz-head{
@@ -328,4 +384,15 @@
 	max-width: 960px;
 	margin-right: auto;
 	margin-left:  auto;
+
 }
+
+.resume-container h1 {
+	padding-left: 15px;
+}
+
+.resume-container h2 {
+	font-size: 2em;
+}
+
+
