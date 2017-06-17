@@ -230,12 +230,12 @@
 
 .wow {
 	text-align: center;
-	font-size: 4em;
+	font-size: 3em;
 }
 
 .wiz-head{
 	text-align: center;
-	font-size: 4em;
+	font-size: 2.7em;
 }
 
 .wiz-container img {
@@ -272,7 +272,7 @@
 .berner-head {
 	text-align: center;
 	padding-top: 15px;
-	font-size: 4em;
+	font-size: 2.7em;
 
 }
 
@@ -311,7 +311,7 @@
 
 .post-head {
 	text-align: center;
-	font-size: 4em;
+	font-size: 2.7em;
 }
 
 .post-container img {
@@ -384,6 +384,9 @@
 	max-width: 960px;
 	margin-right: auto;
 	margin-left:  auto;
+	padding-left:  40px;
+	padding-right:  40px;
+	box-sizing: border-box;
 
 }
 
