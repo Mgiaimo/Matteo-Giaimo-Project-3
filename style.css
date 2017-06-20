@@ -368,7 +368,7 @@
 }
 
 .navbar-music a:hover {
-	background-color: orange;
+	background-color: black;
 }
 
 
@@ -524,7 +524,8 @@
 .navbar-resume {
 	
 	padding: 15px 5px 15px 5px;
-	background-color: lightblue;
+	background-color: #4d4d4d;
+
 	
 }
 
@@ -543,19 +544,45 @@
 
 .navbar-resume a {
 	text-decoration: none;
-	color: gray;
+	color: white;
 	padding: 10px 20px;
 	display: block;
 
 }
 
 .navbar-resume a:hover {
-	background-color: orange;
+	background-color: black;
 }
 
 .resume-footer {
-	background-color: lightblue;
+	background-color: #4d4d4d;
 	padding: 15px 5px 15px 5px;
+	text-align: center;
+	color: white;
+	
+}
+
+.resume-container h1 {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+.resume-container h2 {
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.resume-container h3 {
+	text-align: center;
+	font-size: 1.6em;
+}
+
+.resume-container p {
+	text-align: center;
+}
+
+ #resume-det ul {
+	list-style: none;
 	text-align: center;
 	
 }
