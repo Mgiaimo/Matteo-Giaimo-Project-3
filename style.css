@@ -21,6 +21,7 @@
 	margin: 0 auto;
 	font-family: 'Abril Fatface', sans-serif;
 	background-color: darkorange;
+	
 }
 
 .navbar-raptor {
@@ -113,6 +114,7 @@
 	
 	padding: 70px;
 	clear: both;
+	background-color: darkorange;
 
 	
 }
@@ -157,6 +159,9 @@
 	text-decoration: underline;
 }
 
+.raptor-exhuast {
+	background-color: darkorange;
+}
 .raptor-exhuast h3 {
 	text-align: center;
 	font-size: 1.6em;
@@ -230,6 +235,10 @@
 	padding: 30px;
 }
 
+.raptor-frontb {
+	background-color: darkorange;
+}
+
 .raptor-frontb h3 {
 	text-align: center;
 	font-size: 1.6em;
@@ -269,6 +278,10 @@
 .raptor-rearb p {
 	padding: 20px;
 	padding-bottom: 25px;
+}
+
+.raptor-brakes {
+	background-color: darkorange;
 }
 
 .raptor-brakes h3 {
