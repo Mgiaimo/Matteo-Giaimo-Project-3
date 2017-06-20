@@ -13,7 +13,9 @@
 
 
 /*RAPTORRAPTORRAPTORRAPTORRAPTORRAPTORRAPTORRAPTORRAPTORRAPTORRAPTOR*/
-
+.raptor-body {
+	background-color: lightgray;
+}
 .raptor-container {
 	max-width: 960px;
 	margin: 0 auto;
@@ -24,14 +26,13 @@
 .navbar-raptor {
 	
 	padding: 15px 5px 15px 5px;
-	background-color: lightblue;
+	background-color: #3333cc;
 
 }
 
 .navbar-raptor ul {
 	margin: 0;
 	padding: 0;
-	text-align: center;
 	overflow: hidden;
 }
 
@@ -44,7 +45,7 @@
 
 .navbar-raptor a {
 	text-decoration: none;
-	color: gray;
+	color: silver;
 	padding: 10px 20px;
 	display: block;
 
@@ -105,7 +106,7 @@
 	margin-left:  5px;
 }
 
-#raptor-title , h2 {
+#raptor-title  h2 {
 	text-align: center;
 	padding: 0;
 	margin: 0;
@@ -115,13 +116,14 @@
 .raptor-want {
 	background-color: yellow;
 	padding: 70px;
+	clear: both;
 	
 }
 
 .raptor-want img {
 	float: right;
 	max-width: 50%;
-	padding-bottom: 40px;
+	margin-bottom: 40px;
 
 
 }
@@ -151,12 +153,15 @@
 /*RAPTORRAPTORRAPTORRAPTORRAPTORRAPTORRAPTORRAPTORRAPTORRAPTORRAPTOR*/
 
 /*MUSICMUSICMUSICMUSICMUSICMUSICMUSICMUSICMUSICMUSICMUSICMUSICMUSIC*/
+.music-body {
+	background-color: lightgray;
+}
 
 .music-container {
 	font-family: 'Acme', sans-serif;
 	max-width: 960px;
 	margin: 0 auto;
-	background-color: maroon;
+	
 }
 
 
@@ -201,6 +206,18 @@
 }
 
 
+.wiz-container {
+	background-color: #4d4d4d
+}
+
+
+.music-container h1 {
+	text-align: center;
+}
+
+.music-container h2,h3 {
+	text-align: center;
+}
 
 
 @media screen and (min-width: 940px)
