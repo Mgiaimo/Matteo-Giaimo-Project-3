@@ -164,11 +164,14 @@
 	
 }
 
+.music-container h2 {
+	padding-top: 15px;
+}
 
 .navbar-music {
 	
 	padding: 15px 5px 15px 5px;
-	background-color: lightblue;
+	background-color: #4d4d4d;
 	
 }
 
@@ -187,7 +190,7 @@
 
 .navbar-music a {
 	text-decoration: none;
-	color: gray;
+	color: #d9d9d9;
 	padding: 10px 20px;
 	display: block;
 
@@ -208,6 +211,7 @@
 
 .wiz-container {
 	background-color: #4d4d4d
+
 }
 
 .wiz-container img {
@@ -219,6 +223,7 @@
 
 .wiz-container p {
 	padding: 20px;
+	color: #d9d9d9;
 }
 
 .wiz-container video {
@@ -228,15 +233,25 @@
 
 .music-container h1 {
 	text-align: center;
+	font-size: 2.5em;
+	
+
+
 }
 
 .music-container h2 {
 	text-align: center;
+	font-size: 1.8em;
+	color: #d9d9d9;
+
 }
 
 .music-container h3 {
 	text-align: center;
 	margin-bottom: -8px;
+	font-size: 1.4em;
+	color: #d9d9d9;
+
 }
 
 .berner-container {
@@ -247,11 +262,13 @@
 	width: 50%;
 	float: right;
 	margin-right: 20px;
-	margin-left: 5px;
+	margin-left: 20px;
 }
 
 .berner-container p {
 	padding: 20px;
+	color: #d9d9d9;
+
 }
 
 .berner-container h3 {
@@ -265,6 +282,35 @@
 	margin-bottom: 30px;
 }
 
+.post-container {
+	background-color: #4d4d4d;
+}
+
+.post-container img {
+	width: 40%;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.post-container p {
+	margin-right: 20px;
+	color: #d9d9d9;
+
+	
+}
+
+.post-container h3 {
+	clear: both;
+	padding: 30px;
+
+}
+
+.post-container video {
+	margin-left: 160px;
+	margin-bottom: 30px;
+	margin-top: -30px;
+}
 
 @media screen and (min-width: 940px)
 {
