@@ -194,6 +194,10 @@
 	padding-bottom: 20px;
 }
 
+.raptor-intake li {
+	font-size: 110%;
+}
+
 .raptor-led {
 	background-color: darkorange;
 }
