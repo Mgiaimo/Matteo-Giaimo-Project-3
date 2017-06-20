@@ -16,19 +16,17 @@
 .raptor-body {
 	background-color: lightgray;
 }
+
 .raptor-container {
 	max-width: 960px;
 	margin: 0 auto;
 	font-family: 'Abril Fatface', sans-serif;
 	background-color: darkorange;
-	
 }
 
 .navbar-raptor {
-	
 	padding: 15px 5px 15px 5px;
 	background-color: #4d4d4d;
-
 }
 
 .navbar-raptor ul {
@@ -40,8 +38,6 @@
 .navbar-raptor li {
 	list-style: none;
 	float: left;
-	
-	
 }
 
 .navbar-raptor a {
@@ -49,7 +45,6 @@
 	color: darkorange;
 	padding: 10px 20px;
 	display: block;
-
 }
 
 .navbar-raptor a:hover {
@@ -61,8 +56,6 @@
 	padding: 30px;
 	text-align: center;
 	color: darkorange;
-	
-
 }
 
 
@@ -75,7 +68,6 @@
 
 .raptor-container h2 {
 	font-size: 1.8em;
-	
 }
 
 .raptor-video {
@@ -106,18 +98,15 @@
 	text-align: center;
 	padding: 0;
 	margin: 0;
-	font-size: 1.8em
-	
+	font-size: 1.8em;
 }
 
 .raptor-want {
-	
 	padding: 70px;
 	clear: both;
 	background-color: darkorange;
-
-	
 }
+
 .raptor-want p {
 	padding: 5px;
 	text-align: center;
@@ -139,7 +128,6 @@
 	background-color: black;
 	color: darkorange;
 	margin-top: -50px;
-
 }
 
 .raptor-upgrade h2 {
@@ -287,7 +275,6 @@
 .raptor-brakes h3 {
 	text-align: center;
 	font-size: 1.8em;
-
 }
 
 .raptor-brakes img {
@@ -332,7 +319,6 @@
 	font-family: 'Acme', sans-serif;
 	max-width: 960px;
 	margin: 0 auto;
-	
 }
 
 .music-container h2 {
@@ -343,7 +329,6 @@
 	
 	padding: 15px 5px 15px 5px;
 	background-color: #4d4d4d;
-	
 }
 
 .navbar-music ul {
@@ -355,8 +340,6 @@
 .navbar-music li {
 	list-style: none;
 	float: left;
-	
-	
 }
 
 .navbar-music a {
@@ -364,7 +347,6 @@
 	color: #d9d9d9;
 	padding: 10px 20px;
 	display: block;
-
 }
 
 .navbar-music a:hover {
@@ -374,24 +356,21 @@
 
 .music-footer {
 	background-color: #4d4d4d;
-	padding: 15px 5px 15px 5px;
+	padding: 30px;
 	text-align: center;
 	color: #d9d9d9;
 	margin-top: 40px;
-	
 }
 
 
 .wiz-container {
 	background-color: #4d4d4d
-
 }
 
 .wiz-container img {
 	margin-left: 20px;
 	margin-right: 20px;
 	float: left;
-
 }
 
 .wiz-container p {
@@ -407,16 +386,12 @@
 .music-container h1 {
 	text-align: center;
 	font-size: 2.5em;
-	
-
-
 }
 
 .music-container h2 {
 	text-align: center;
 	font-size: 1.8em;
 	color: #d9d9d9;
-
 }
 
 .music-container h3 {
@@ -424,7 +399,6 @@
 	margin-bottom: -8px;
 	font-size: 1.4em;
 	color: #d9d9d9;
-
 }
 
 .berner-container {
@@ -441,13 +415,10 @@
 .berner-container p {
 	padding: 20px;
 	color: #d9d9d9;
-
 }
 
 .berner-container h3 {
 	padding-top: 30px;
-
-
 }
 
 .berner-container video {
@@ -469,14 +440,11 @@
 .post-container p {
 	margin-right: 20px;
 	color: #d9d9d9;
-
-	
 }
 
 .post-container h3 {
 	clear: both;
 	padding: 30px;
-
 }
 
 .post-container video {
@@ -522,11 +490,8 @@
 }
 
 .navbar-resume {
-	
 	padding: 15px 5px 15px 5px;
 	background-color: #4d4d4d;
-
-	
 }
 
 .navbar-resume ul {
@@ -538,8 +503,6 @@
 .navbar-resume li {
 	list-style: none;
 	float: left;
-	
-	
 }
 
 .navbar-resume a {
@@ -547,7 +510,6 @@
 	color: white;
 	padding: 10px 20px;
 	display: block;
-
 }
 
 .navbar-resume a:hover {
@@ -556,10 +518,9 @@
 
 .resume-footer {
 	background-color: #4d4d4d;
-	padding: 15px 5px 15px 5px;
+	padding: 30px;
 	text-align: center;
 	color: white;
-	
 }
 
 .resume-container h1 {
@@ -573,25 +534,36 @@
 }
 
 .resume-container h3 {
-	text-align: center;
 	font-size: 1.6em;
+	margin-left: 20px;
+	text-align: center;
+	margin-bottom: -20px;
 }
 
 .resume-container p {
 	text-align: center;
 }
 
- #resume-det ul {
-	list-style: none;
+.resume-container ul {
 	text-align: center;
-	
 }
+
+.resume-container li {
+	list-style-type: none;
+}
+
+.underline li {
+	text-decoration: underline;
+}
+
+
+ 
 
 
 @media screen and (min-width: 940px)
 {
 	.resume-container p,li {
-		font-size: 120%;
+		font-size: 150%;
 	}
 
 }
