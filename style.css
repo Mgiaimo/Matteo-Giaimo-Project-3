@@ -25,13 +25,14 @@
 }
 
 .navbar-raptor {
-	padding: 15px 5px 15px 5px;
+	padding: 5px;
 	background-color: #4d4d4d;
 }
 
 .navbar-raptor ul {
-	margin: 0;
-	padding: 0;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
 	overflow: hidden;
 }
 
@@ -331,13 +332,14 @@
 
 .navbar-music {
 	
-	padding: 15px 5px 15px 5px;
+	padding: 5px;
 	background-color: #4d4d4d;
 }
 
 .navbar-music ul {
-	margin: 0;
-	padding: 0;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
 	overflow: hidden;
 }
 
@@ -494,14 +496,15 @@
 }
 
 .navbar-resume {
-	padding: 15px 5px 15px 5px;
+	padding: 5px;
 	background-color: #4d4d4d;
 }
 
 .navbar-resume ul {
-	margin: 0;
-	padding: 0;
 	overflow: hidden;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .navbar-resume li {
