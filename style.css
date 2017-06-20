@@ -77,7 +77,7 @@
 	padding: 0;
 }
 
-.raptor-container h2,h3 {
+.raptor-container h2 {
 	font-size: 1.8em;
 	
 }
@@ -210,13 +210,41 @@
 	background-color: #4d4d4d
 }
 
+.wiz-container img {
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+
+}
+
+.wiz-container p {
+	padding: 20px;
+}
+
+.wiz-container video {
+	margin-left: 160px;
+	margin-bottom: 30px;
+}
 
 .music-container h1 {
 	text-align: center;
 }
 
-.music-container h2,h3 {
+.music-container h2 {
 	text-align: center;
+}
+
+.music-container h3 {
+	text-align: center;
+	margin-bottom: -8px;
+}
+
+.berner-container {
+	background-color: #4d4d4d;
+}
+
+.berner-container img {
+	width: 50%;
 }
 
 
