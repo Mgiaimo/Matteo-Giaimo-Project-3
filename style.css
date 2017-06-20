@@ -245,6 +245,24 @@
 
 .berner-container img {
 	width: 50%;
+	float: right;
+	margin-right: 20px;
+	margin-left: 5px;
+}
+
+.berner-container p {
+	padding: 20px;
+}
+
+.berner-container h3 {
+	padding-top: 30px;
+
+
+}
+
+.berner-container video {
+	margin-left: 160px;
+	margin-bottom: 30px;
 }
 
 
