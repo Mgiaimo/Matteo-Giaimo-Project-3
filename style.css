@@ -114,22 +114,91 @@
 }
 
 .raptor-want {
-	background-color: yellow;
+	
 	padding: 70px;
 	clear: both;
 	
 }
+.raptor-want p {
+	padding: 5px;
+	text-align: center;
+}
 
 .raptor-want img {
-	float: right;
-	max-width: 50%;
-	margin-bottom: 40px;
+	margin-left: 100px;
+	
 
 
 }
 
+.raptor-want h2 {
+	text-align: center;
+	margin-top: -30px;
+}
 
+.raptor-upgrade {
+	background-color: black;
+	color: darkorange;
+	margin-top: -50px;
 
+}
+
+.raptor-upgrade h2 {
+	text-align: center;
+}
+
+.raptor-upgrade ul {
+	text-align: center;
+	margin-right: 20px;
+	padding-bottom: 10px;
+}
+
+.raptor-upgrade  li {
+	list-style: none;
+	display: inline;
+	padding: 10px;
+	text-decoration: underline;
+}
+
+.raptor-exhuast h3 {
+	text-align: center;
+	font-size: 1.6em;
+}
+
+.raptor-exhuast img {
+	max-width: 50%;
+	margin-left: 220px;
+}
+
+.raptor-exhuast p {
+	margin-right: 25px;
+	margin-left: 20px;
+}
+
+.raptor-intake {
+	background-color: black;
+	color: darkorange;
+}
+
+.raptor-intake h3 {
+	font-size: 1.6em;
+	text-align: center;
+}
+
+.raptor-intake img {
+	max-width: 50%;
+	padding-left: 230px;
+}
+
+.raptor-intake p {
+	padding: 20px;
+}
+
+.raptor-intake ul {
+	margin-right: 10px;
+	margin-top: -20px;
+	padding-bottom: 20px;
+}
 
 
 @media screen and (min-width: 940px)
