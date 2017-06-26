@@ -510,9 +510,14 @@
 		float: none;
 		width: 80%;
 		margin-right: auto;
-		margin-left: auto;
+		margin-left: 20px;
 		text-align: center;
 		padding: 10px;
+
+	}
+
+	.post-container p {
+		margin-left: 20px;
 	}
 
 }
