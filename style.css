@@ -15,6 +15,7 @@
 /*RAPTORRAPTORRAPTORRAPTORRAPTORRAPTORRAPTORRAPTORRAPTORRAPTORRAPTOR*/
 .raptor-body {
 	background-color: lightgray;
+	font-size: 110%;
 }
 
 .raptor-container {
@@ -44,6 +45,7 @@
 	color: darkorange;
 	padding: 10px 20px;
 	display: block;
+	font-size: 140%;
 }
 
 .navbar-raptor a:hover {
@@ -88,6 +90,7 @@
 .raptor-video p {
 	margin-right:  5px;
 	margin-left:  5px;
+	margin-top: -10px;
 }
 
 .raptor-video h2 {
@@ -295,18 +298,64 @@
 }
 
 
-@media screen and (min-width: 940px)
+
+
+@media screen and (max-width: 800px)
 {
-	.raptor-container p {
-		font-size: 110%;
+
+	.navbar-raptor ul li {
+		width: 100%;
 	}
 
-}
 
-@media screen and (max-width: 500px)
-{
 	.raptor-container p {
-		font-size: 90%;
+		font-size: 120%;
+	}
+
+	.raptor-video video {
+		float: none;
+		width: 90%;
+	}
+
+	.raptor-want img {
+		width: 110%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.raptor-exhuast img {
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.raptor-intake img {
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.raptor-led img {
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.raptor-frontb img {
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.raptor-rearb img {
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.raptor-brakes img {
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 }
@@ -334,6 +383,7 @@
 .navbar-music {
 	background-color: #4d4d4d;
 	text-align: center;
+	position: relative;
 }
 
 .navbar-music ul {
@@ -351,6 +401,7 @@
 	color: #d9d9d9;
 	padding: 10px 20px;
 	display: block;
+	font-size: 140%;
 }
 
 .navbar-music a:hover {
@@ -376,6 +427,7 @@
 	margin-left: 20px;
 	margin-right: 20px;
 	float: left;
+	margin-bottom: 5px;
 }
 
 .wiz-container h3 {
@@ -472,8 +524,12 @@
 
 @media screen and (max-width: 800px)
 {
-	.music-container p {
-		font-size: 90%;
+	.music-container  {
+		font-size: 140%;
+	}
+
+	.navbar-music ul li {
+		width: 100%;
 	}
 
 	.wiz-container video {
@@ -488,31 +544,34 @@
 		width: 80%;
 	}
 
-	.wiz-container p img {
+	.wiz-container img {
 		float: none;
 		width: 80%;
 		margin-right: auto;
 		margin-left: auto;
 		text-align: center;
 		padding: 10px;
+		display: block;
 	}
 
-	.berner-container p img {
+	.berner-container img {
 		float: none;
 		width: 80%;
 		margin-right: auto;
 		margin-left: auto;
 		text-align: center;
 		padding: 10px;
+		display: block;
 	}
 
-	.post-container p img {
+	.post-container img {
 		float: none;
-		width: 80%;
+		width: 70%;
 		margin-right: auto;
-		margin-left: 20px;
+		margin-left: auto;
 		text-align: center;
 		padding: 10px;
+		display: block;
 
 	}
 
@@ -562,6 +621,7 @@
 	color: white;
 	padding: 10px 20px;
 	display: block;
+	font-size: 140%;
 }
 
 .navbar-resume a:hover {
@@ -594,6 +654,7 @@
 
 .resume-container p {
 	text-align: center;
+	font-size: 120%
 }
 
 .resume-container ul {
@@ -602,6 +663,7 @@
 
 .resume-container li {
 	list-style-type: none;
+	font-size: 120%;
 }
 
 .underline li {
@@ -609,21 +671,18 @@
 }
 
 
- 
-
-
-@media screen and (min-width: 940px)
-{
-	.resume-container p,li {
-		font-size: 150%;
-	}
-
-}
-
-@media screen and (max-width: 500px)
+@media screen and (max-width: 800px)
 {
 	.resume-container p {
-		font-size: 90%;
+		font-size: 140%;
+	}
+
+	li {
+		font-size: 140%;
+	}
+
+	.navbar-resume ul li {
+		width: 100%;
 	}
 
 }
