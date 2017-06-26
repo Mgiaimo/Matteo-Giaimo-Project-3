@@ -25,20 +25,18 @@
 }
 
 .navbar-raptor {
-	padding: 5px;
 	background-color: #4d4d4d;
+	text-align: center;
 }
 
 .navbar-raptor ul {
-	width: 60%;
-	margin-left: auto;
-	margin-right: auto;
-	overflow: hidden;
+	list-style-type: none;
+	display: inline-block;
 }
 
 .navbar-raptor li {
-	list-style: none;
 	float: left;
+	margin: 0;
 }
 
 .navbar-raptor a {
@@ -326,6 +324,7 @@
 	font-family: 'Acme', sans-serif;
 	max-width: 960px;
 	margin: 0 auto;
+	font-size: 120%
 }
 
 .music-container h2 {
@@ -333,21 +332,18 @@
 }
 
 .navbar-music {
-	
-	padding: 5px;
 	background-color: #4d4d4d;
+	text-align: center;
 }
 
 .navbar-music ul {
-	width: 60%;
-	margin-left: auto;
-	margin-right: auto;
-	overflow: hidden;
+	list-style-type: none;
+	display: inline-block;
 }
 
-.navbar-music li {
-	list-style: none;
+.navbar-music ul li {
 	float: left;
+	margin: 0;
 }
 
 .navbar-music a {
@@ -472,22 +468,51 @@
 
 }
 
-@media screen and (min-width: 940px)
-{
-	.music-container p {
-		font-size: 120%;
-	}
 
-}
 
-@media screen and (max-width: 500px)
+@media screen and (max-width: 800px)
 {
 	.music-container p {
 		font-size: 90%;
 	}
 
+	.wiz-container video {
+		width: 80%;
+	}
+
+	.berner-container video {
+		width: 80%;
+	}
+
 	.post-container video {
 		width: 80%;
+	}
+
+	.wiz-container p img {
+		float: none;
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		padding: 10px;
+	}
+
+	.berner-container p img {
+		float: none;
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		padding: 10px;
+	}
+
+	.post-container p img {
+		float: none;
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		padding: 10px;
 	}
 
 }
@@ -513,20 +538,18 @@
 }
 
 .navbar-resume {
-	padding: 5px;
 	background-color: #4d4d4d;
+	text-align: center;
 }
 
 .navbar-resume ul {
-	overflow: hidden;
-	width: 60%;
-	margin-left: auto;
-	margin-right: auto;
+	list-style-type: none;
+	display: inline-block;
 }
 
-.navbar-resume li {
-	list-style: none;
+.navbar-resume ul li {
 	float: left;
+	margin: 0;
 }
 
 .navbar-resume a {
