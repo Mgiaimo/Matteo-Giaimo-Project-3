@@ -11,7 +11,7 @@ var pizza = '<strong>Ristorante La Montagnola</strong> ' +
         zoom: 10
         });
 
-         var marker = new google.maps.Marker ({
+         var montagnolaMarker = new google.maps.Marker ({
             position: {lat: 38.042069, lng: 13.146400},
             map: map,
             title: 'Ristorante La Montagnola',
@@ -20,6 +20,16 @@ var pizza = '<strong>Ristorante La Montagnola</strong> ' +
 
 
         });
+
+         var montagnola = new google.maps.InfoWindow({
+          content: pizza
+          });
+
+          montagnolaMarker.addListener('click', function() {
+          montagnola.open(map, montagnolaMarker);
+          
+          setTimeout(function () { montagnola.close(); }, 10000);
+          });
 
 
 
@@ -65,6 +75,7 @@ var pizza = '<strong>Ristorante La Montagnola</strong> ' +
 
           marker.addListener('click', function() {
           infowindow.open(map, marker);
+
           setTimeout(function () { infowindow.close(); }, 10000);
           });
 
