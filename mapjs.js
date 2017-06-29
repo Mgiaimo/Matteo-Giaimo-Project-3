@@ -1,4 +1,8 @@
 var map;
+var club = '<strong>Baia Le Grotte</strong> ' +
+                'Night Club that is on the beach';
+var pizza = '<strong>Ristorante La Montagnola</strong> ' +
+            'come try out the towns best pizza!'
         function initMap() {
         // Create a map object and specify the DOM element for display.
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -14,7 +18,10 @@ var map;
             icon : 'images-for-project/pizza.png',
             animation: google.maps.Animation.DROP,
 
+
         });
+
+         
 
          var marker = new google.maps.Marker ({
             position: {lat: 38.200241, lng: 13.328579},
@@ -51,4 +58,14 @@ var map;
 
             
         });
+
+          var infowindow = new google.maps.InfoWindow({
+          content: club
+          });
+
+          marker.addListener('click', function() {
+          infowindow.open(map, marker);
+          });
+
+
         }
