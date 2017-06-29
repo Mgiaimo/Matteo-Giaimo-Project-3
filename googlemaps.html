@@ -5,30 +5,38 @@
 <meta name="viewport" content="initial-scale=1.0">
 <title>Map</title>
   <link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css">
-  <style>
-    #map {
-      height: 100%;
-    }
-    html, body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="cssreset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div id="map"></div>
-  <script>
-    function initMap() {
-    // Create a map object and specify the DOM element for display.
-    var map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: -34.397, lng: 150.644},
-    scrollwheel: false,
-    zoom: 15
-    });
-    }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAY8H0vyfUWuLEza684FlkKEZ1oOpWt-d0&callback=initMap"
-    async defer></script>
+  <header>
+    <nav class="navbar-googlemaps"> 
+      <ul class="group">
+        <li><a href="index.html">Dream Vehicle</a></li>
+        <li><a href="musicians.html">Favorite Musicians</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="googlemaps.html">Sicily</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="wrapper">
+  <h1 class="map-title">Places I Enjoy In Sicily</h1>
+  <div id="canvas">
+    <div id="map"></div>
+      <script>
+        function initMap() {
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 38.044942, lng: 13.141980},
+        scrollwheel: false,
+        zoom: 13
+        });
+        }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAY8H0vyfUWuLEza684FlkKEZ1oOpWt-d0&callback=initMap"
+        async defer></script>
+    </div>
+  </div>
+  <footer class="googlemaps-footer">&copy; Matteo Giaimo 2017</footer>
   </body>
 </html>

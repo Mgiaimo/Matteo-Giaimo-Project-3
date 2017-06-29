@@ -693,3 +693,82 @@
 
 
 /*RESUMERESUMERESUMERESUMERESUMERESUMERESUMERESUMERESUME*/
+
+
+
+
+/*GOOGLEMAPSGOOGLEMAPSGOOGLEMAPSGOOGLEMAPSGOOGLEMAPSGOOGLEMAPS*/
+
+
+.navbar-googlemaps {
+	background-color: #4d4d4d;
+	text-align: center;
+}
+
+.navbar-googlemaps ul {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.navbar-googlemaps ul li {
+	float: left;
+	margin: 0;
+}
+
+.navbar-googlemaps a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	display: block;
+	font-size: 140%;
+}
+
+.navbar-googlemaps a:hover {
+	background-color: black;
+}
+
+.googlemaps-footer {
+	background-color: #4d4d4d;
+	padding: 30px;
+	text-align: center;
+	color: white;
+}
+
+.map-title {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+#map {
+      height: 100%;
+    }
+   
+
+
+#wrapper {
+	max-width: 960px;
+	height: 600px;
+	background-color: orange;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#canvas {
+	width: 700px;
+	height: 500px;
+	background-color: lightblue;
+	margin: 30px auto;
+}
+
+
+
+
+
+
