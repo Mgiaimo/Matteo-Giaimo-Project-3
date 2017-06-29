@@ -7,7 +7,7 @@ var pizza = '<strong>Ristorante La Montagnola</strong> ' +
         // Create a map object and specify the DOM element for display.
         var map = new google.maps.Map(document.getElementById('map'), {
         center: {lat: 38.044942, lng: 13.141980},
-        scrollwheel: false,
+        scrollwheel: true,
         zoom: 10
         });
 
@@ -21,7 +21,7 @@ var pizza = '<strong>Ristorante La Montagnola</strong> ' +
 
         });
 
-         
+
 
          var marker = new google.maps.Marker ({
             position: {lat: 38.200241, lng: 13.328579},
@@ -65,6 +65,7 @@ var pizza = '<strong>Ristorante La Montagnola</strong> ' +
 
           marker.addListener('click', function() {
           infowindow.open(map, marker);
+          setTimeout(function () { infowindow.close(); }, 10000);
           });
 
 

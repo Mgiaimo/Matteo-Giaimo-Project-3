@@ -754,7 +754,7 @@
 
 #wrapper {
 	max-width: 960px;
-	height: 760px;
+	height: 960px;
 	background-color: orange;
 	margin: 0 auto;
 	overflow: hidden;
@@ -762,7 +762,7 @@
 
 #canvas {
 	width: 700px;
-	height: 500px;
+	height: 700px;
 	background-color: lightblue;
 	margin: 30px auto;
 }
