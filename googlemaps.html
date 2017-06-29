@@ -1,26 +1,34 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <!-- This stylesheet contains specific styles for displaying the map
-         on this page. Replace it with your own styles as described in the
-         documentation:
-         https://developers.google.com/maps/documentation/javascript/tutorial -->
-    <link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css">
-  </head>
-  <body>
-    <div id="map"></div>
-    <script>
-      function initMap() {
-        // Create a map object and specify the DOM element for display.
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          scrollwheel: false,
-          zoom: 8
-        });
-      }
-
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0">
+<title>Map</title>
+  <link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css">
+  <style>
+    #map {
+      height: 100%;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script>
+    function initMap() {
+    // Create a map object and specify the DOM element for display.
+    var map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: -34.397, lng: 150.644},
+    scrollwheel: false,
+    zoom: 15
+    });
+    }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhlIKpZwfXlFXp24Y7e8O0sIX51MNFOuI&callback=initMap"
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAY8H0vyfUWuLEza684FlkKEZ1oOpWt-d0&callback=initMap"
     async defer></script>
   </body>
 </html>
