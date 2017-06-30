@@ -1,14 +1,9 @@
 var map;
-var club = '<strong>Baia Le Grotte ' +
-                'Night Club that is on the beach</strong>';
-var pizza = '<strong>Ristorante La Montagnola ' +
-            'come try out the towns best pizza!</strong>'
-var mondellobeach = '<strong>Mondello Beach is a beautiful ' 
-                    + 'location not to far from Palermo city.</strong>'
-var sanvito = '<strong>San Vito Lo Capo is known as '
-              + 'one of the beautifuliest beaches in the world.</strong>'
-var scopello = '<strong>Cala Mazzo di Sciacca just ' 
-                + 'another famous beach of Sicily</strong>'
+var club = '<h1>Baia Le Grotte</h1> <p>Le Grotte night club that is on the beach, you can get your drink on here or just enjoy some music.</p>';
+var pizza = '<h1>Ristorante La Montagnola</h1> <p>come try out the towns best pizza! They also have a variety of different types of food</p>.'
+var mondellobeach = '<h1>Mondello Beach</h1> <p>is a beautiful beach but also is a great location, its not to far from Palermo city.</p>'
+var sanvito = '<h1>San Vito Lo Capo</h1> <p>is known as one of the beautifuliest beaches in the world. One must come here to witness how clear the water is at this beach.</p>'
+var scopello = '<h1>Cala Mazzo di Sciacca</h1> <p>just another famous beach of Sicily. The beach is not that big but looking out towards the ocean you can see beautiful rock formations in the water.</p>'
         
         function initMap() {
         // Create a map object and specify the DOM element for display.
@@ -35,7 +30,7 @@ var scopello = '<strong>Cala Mazzo di Sciacca just '
           montagnolaMarker.addListener('click', function() {
           montagnola.open(map, montagnolaMarker);
           
-          setTimeout(function () { montagnola.close(); }, 10000);
+          setTimeout(function () { montagnola.close(); }, 8000);
           });
 
 
@@ -56,7 +51,7 @@ var scopello = '<strong>Cala Mazzo di Sciacca just '
           mondello.addListener('click', function() {
           mondelloMarker.open(map, mondello);
 
-          setTimeout(function () { mondelloMarker.close(); }, 10000);
+          setTimeout(function () { mondelloMarker.close(); }, 8000);
           });
 
 
@@ -76,7 +71,7 @@ var scopello = '<strong>Cala Mazzo di Sciacca just '
           sanvitobeach.addListener('click', function() {
           sanvitoMarker.open(map, sanvitobeach);
 
-          setTimeout(function () { sanvitoMarker.close(); }, 10000);
+          setTimeout(function () { sanvitoMarker.close(); }, 8000);
           });
 
           var scopellobeach = new google.maps.Marker ({
@@ -95,11 +90,11 @@ var scopello = '<strong>Cala Mazzo di Sciacca just '
           scopellobeach.addListener('click', function() {
           scopelloMarker.open(map, scopellobeach);
 
-          setTimeout(function () { scopelloMarker.close(); }, 10000);
+          setTimeout(function () { scopelloMarker.close(); }, 8000);
           });
 
 
-          var marker = new google.maps.Marker ({
+          var lacrotteMarker = new google.maps.Marker ({
             position: {lat: 38.048775, lng: 12.999010},
             map: map,
             title: 'Baia Le Grotte',
@@ -109,14 +104,14 @@ var scopello = '<strong>Cala Mazzo di Sciacca just '
             
         });
 
-          var infowindow = new google.maps.InfoWindow({
+          var lacrotte = new google.maps.InfoWindow({
           content: club
           });
 
-          marker.addListener('click', function() {
-          infowindow.open(map, marker);
+          lacrotteMarker.addListener('click', function() {
+          lacrotte.open(map, lacrotteMarker);
 
-          setTimeout(function () { infowindow.close(); }, 10000);
+          setTimeout(function () { lacrotte.close(); }, 8000);
           });
 
           google.maps.event.addDomListener(window, 'load', init);
