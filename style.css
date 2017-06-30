@@ -598,6 +598,7 @@
 
 .resume-container {
 	max-width: 960px;
+	height: 900px;
 	margin: 0 auto;
 	font-family: 'Jaldi', sans-serif;
 	background-color: lightgray;
