@@ -300,13 +300,19 @@
 
 
 
-@media screen and (max-width: 800px)
+@media screen and (max-width: 650px)
 {
 	.navbar-raptor {
-		font-size: 13px;
+		font-size: .7em;
 	}
 	.navbar-raptor ul li {
-		font-size: 106%;
+		font-size: 70%;
+	}
+
+	.navbar-raptor a {
+		margin-left: 10px;
+		margin-right: 10px;
+		padding: 0 0;
 	}
 
 	.raptor-container p {
@@ -525,18 +531,24 @@
 
 
 
-@media screen and (max-width: 800px)
+@media screen and (max-width: 650px)
 {
 	.music-container  {
 		font-size: 140%;
 	}
 
 	.navbar-music {
-		font-size: 13px;
+		font-size: .8em;
 	}
 
 	.navbar-music ul li {
-		font-size: 106%;
+		font-size: 70%;
+	}
+
+	.navbar-music a {
+		margin-left: 10px;
+		margin-right: 10px;
+		padding: 0 0;
 	}
 
 	.wiz-container video {
@@ -679,18 +691,24 @@
 }
 
 
-@media screen and (max-width: 800px)
+@media screen and (max-width: 650px)
 {
 	.resume-container p {
 		font-size: 140%;
 	}
 
 	.navbar-resume {
-		font-size: 13px;
+		font-size: .8em;
 	}
 
 	.navbar-resume ul li {
-		font-size: 106%;
+		font-size: 70%;
+	}
+
+	.navbar-resume a {
+		margin-left: 10px;
+		margin-right: 10px;
+		padding: 0 0;
 	}
 
 }
@@ -732,6 +750,8 @@
 .navbar-googlemaps a:hover {
 	background-color: black;
 }
+
+
 
 .googlemaps-footer {
 	background-color: #4d4d4d;
@@ -777,18 +797,24 @@
 }
 
 
-@media screen and (max-width: 800px)
+@media screen and (max-width: 650px)
 {
 
 
 	
 
 	.navbar-googlemaps {
-		font-size: 13px;
+		font-size: .8em;
 	}
 
 	.navbar-googlemaps ul li {
-		font-size: 106%;
+		font-size: 70%;
+	}
+
+	.navbar-googlemaps a {
+		margin-left: 10px;
+		margin-right: 10px;
+		padding: 0 0;
 	}
 
 	
