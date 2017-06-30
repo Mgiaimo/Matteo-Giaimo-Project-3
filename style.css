@@ -749,6 +749,8 @@
 
 #map {
       height: 100%;
+      margin-right: auto;
+      margin-left: auto;
     }
    
 
@@ -768,6 +770,20 @@
 	margin: 30px auto;
 }
 
+
+@media screen and (max-width: 800px)
+{
+
+#map {
+      height: 400px;
+      width: 400px;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+      
+    }
+
+}
 
 
 
