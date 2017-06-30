@@ -757,7 +757,7 @@
 
 
 #wrapper {
-	max-width: 960px;
+	width: 960px;
 	height: 960px;
 	background-color: orange;
 	margin: 0 auto;
