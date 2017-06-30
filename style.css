@@ -772,6 +772,21 @@
 }
 
 
+@media screen and (max-width: 800px)
+{
+
+
+	li {
+		font-size: 140%;
+	}
+
+	.navbar-googlemaps ul li {
+		width: 100%;
+	}
+
+}
+
+
 
 
 
