@@ -10,7 +10,8 @@ var scopello = '<h1>Cala Mazzo di Sciacca</h1><p>just another famous beach of Si
         var map = new google.maps.Map(document.getElementById('map'), {
         center: {lat: 38.044942, lng: 13.141980},
         scrollwheel: true,
-        zoom: 10
+        zoom: 10,
+        mapTypeId: 'hybrid',
         });
 
          var montagnolaMarker = new google.maps.Marker ({
