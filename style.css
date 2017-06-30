@@ -302,11 +302,12 @@
 
 @media screen and (max-width: 800px)
 {
-
-	.navbar-raptor ul li {
-		width: 100%;
+	.navbar-raptor {
+		font-size: 13px;
 	}
-
+	.navbar-raptor ul li {
+		font-size: 106%;
+	}
 
 	.raptor-container p {
 		font-size: 120%;
@@ -530,8 +531,12 @@
 		font-size: 140%;
 	}
 
+	.navbar-music {
+		font-size: 13px;
+	}
+
 	.navbar-music ul li {
-		width: 100%;
+		font-size: 106%;
 	}
 
 	.wiz-container video {
@@ -680,12 +685,12 @@
 		font-size: 140%;
 	}
 
-	li {
-		font-size: 140%;
+	.navbar-resume {
+		font-size: 13px;
 	}
 
 	.navbar-resume ul li {
-		width: 100%;
+		font-size: 106%;
 	}
 
 }
@@ -776,13 +781,17 @@
 {
 
 
-	li {
-		font-size: 140%;
+	
+
+	.navbar-googlemaps {
+		font-size: 13px;
 	}
 
 	.navbar-googlemaps ul li {
-		width: 100%;
+		font-size: 106%;
 	}
+
+	
 
 }
 
