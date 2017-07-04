@@ -1,14 +1,14 @@
 var map;
 
-var club = '<h1>Baia Le Grotte</h1><p>A night club that is on the beach, do you really need to know more? Well if you do you can get your drink on here or just enjoy some music and dance.</p>';
+var club = '<h1>Baia Le Grotte</h1><p>A night club that is on the beach, do you really need to know more? Well if you do you can get your drink on here or just enjoy some music and dance.</p> <img src="images-for-project/grotte.jpg">';
 
-var pizza = '<h1>Ristorante La Montagnola</h1><p>Come try out the towns best pizza! They also have a variety of different types of food</p>.'
+var pizza = '<h1>Ristorante La Montagnola</h1><p>Come try out the towns best pizza! They also have a variety of different types of food.</p> <img src="images-for-project/pizzapic.jpg">'
 
-var mondellobeach = '<h1>Mondello Beach</h1><p>Is a beautiful beach but also is a great location, its not to far from Palermo city.</p>'
+var mondellobeach = '<h1>Mondello Beach</h1><p>Is a beautiful beach but also is a great location, its not to far from Palermo city.</p> <img src="images-for-project/mondello.jpg">'
 
-var sanvito = '<h1>San Vito Lo Capo</h1><p>Is known as one of the most beautifuliest beach in the world. One must come here to witness how clear the water is at this beach.</p>'
+var sanvito = '<h1>San Vito Lo Capo</h1><p>Is known as one of the most beautifuliest beach in the world. One must come here to witness how clear the water is at this beach.</p> <img src="images-for-project/sanvito.jpg">'
 
-var scopello = '<h1>Cala Mazzo di Sciacca</h1><p>Just another famous beach of Sicily. The beach is not that big but looking out towards the ocean you can see beautiful rock formations in the water.</p>'
+var scopello = '<h1>Cala Mazzo di Sciacca</h1><p>Just another famous beach of Sicily. The beach is not that big but looking out towards the ocean you can see beautiful rock formations in the water.</p> <img src="images-for-project/scopello.jpg">'
         
         function initMap() {
         // Create a map object and specify the DOM element for display.
